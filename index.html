@@ -35,7 +35,7 @@
 </head>
 <body class="font-poppins">
      <!---Header section-->
-     <header class="md:container mx-auto">
+     <header class="md:container mx-auto ">
      <nav>
         <div class="navbar bg-base-100">
   <div class="flex-1">
@@ -83,7 +83,7 @@
      </nav>
      </header>
         <!--slider /carousel--> 
-        <div class="carousel w-full  lg:h-[550px] bg-bike-primary-bg">
+        <div class="carousel w-full  lg:h-[550px] bg-bike-primary-bg ">
             <!---slide 1-->
   <div id="slide1" class="carousel-item relative w-full">
    <div class="flex flex-col lg:flex-row p-12 lg:p-24">
@@ -145,7 +145,7 @@
   </div>
   
   <!---slide 3-->
-  <div id="slide3" class="carousel-item relative w-full">
+  <div id="slide3" class="carousel-item relative w-full ">
    <div class="flex flex-col lg:flex-row p-12 lg:p-24">
      <!---text content----->
        <div class="space-y-7 flex-1">
@@ -177,34 +177,44 @@
   
 </div>
      <!---Main section-->
-     <main class="class=md:container mx-auto">
-         <section>
-          <div class="mb-15 mt-30 ">
+     <main class="class=md:container mx-auto pt-24">
+           <!---Feature bike section-->
+         <section class="my=24">
+            <!---Text section-->
+            <div class="mb-10 mt-30 ">
             <h2 class="text-5xl font-semibold bike-primary
           text-center  ">
              Fetured Bikes In This Year
           </h2>
-           <h5 class="text-xiv font-semibold text-bike-primary
+           <h5 class="py-10 text-xiv font-semibold text-bike-primary
            text-center "> 
             Best bike collection</h5>
           </div>
+          <!----image section-->
+             
+           <div class="grid grid-cols-1 md:grid-cols-2 gap-12
+             lg:grid-cols-3" >
+          
+                  <img src="./images/others/extrabike.png" alt="">
+                  <img src="./images/others/feature-bike.png" alt="">
+                 <img src="./images/others/extrabike.png" alt="">
+           </div>
          </section>
-      <!---Feature bike section-->
-       <section></section>
+      
 
        <!----Latest bike section-->
        <section class="my-24">
-        <h3 class="text-5xl font-bold center mb-12">
-          Latest News</h3>
+        <h3 class="text-5xl font-bold  mb-12 text-center">
+          Latest Bikes</h3>
           <!---Cards-->
           <div class="grid grid-cols-1 md:grid-cols-2 gap-12
           lg:grid-cols-3">
             <!---card1 1-->
-            <div class="card bg-base-100 shadow-sm">
+            <div class="card bg-base-100 shadow-sm ">
   <figure>
     <img
       src="./images/others/latest1.png"
-      alt="Shoes" />
+      alt="" />
   </figure>
   <div class="card-body space-y-5">
     <h2 class="card-title">
@@ -220,7 +230,7 @@
     </div>
   </div>
 </div>
-           <!---card1 2-->
+           <!---card 2-->
             <div class="card bg-base-100 shadow-sm">
   <figure>
     <img
@@ -261,10 +271,116 @@
       <button class="btn bg-white text-bike-primary border-bike-primary">Read More</button>
     </div>
   </div>
-</div>    
+     </div>  
+     </section>
+         <!---Review section-->
+          <section class="my-24 w-500px">
+          <!---Text section-->
+         
+    <h3 class="text-5xl font-bold text-center mb-12">
+               Happy <span class="text-bike-primary">
+          Clients Says</span></h3>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12
+          lg:grid-cols-3">
+            <!---card 1-->
+            <div class="card bg-base-100 shadow-sm">
+  <figure>
+    <div class="avatar">
+  <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+    <img src="./images/others/user-1.png" />
+  </div>
+</div>
+    
+  </figure>
+  <div class="card-body space-y-5">
+  <p>
+     Slate helps you see how 
+many more days you need 
+to work to reach your financial 
+goal for the month and year.</p>
+<div class="rating">
+  <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" checked="checked" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+</div>
+ <h5 class="text-center  font-semibold text-xiv text-sky-500">
+  Regina Miles</h5>
+ <h6 class="text-center text-black font-semibold text-xiv ">
+  Banker</h6>
+  </div>
+</div>
+<!---card 2-->
+            <div class="card bg-base-100 shadow-sm">
+  <figure>
+    <div class="avatar">
+  <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+    <img src="./images/others/user-2.png" />
+  </div>
+</div>
+    
+  </figure>
+  <div class="card-body space-y-5">
+  <p>
+     Slate helps you see how 
+many more days you need 
+to work to reach your financial 
+goal for the month and year.</p>
+<div class="rating">
+  <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" checked="checked" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+</div>
+ <h5 class="text-center font-semibold text-xiv text-sky-500">
+  Regina Miles</h5>
+ <h6 class="text-center text-black font-semibold text-xiv ">
+  Banker</h6>
+  </div>
+</div>
+<!---card 3-->
+            <div class="card bg-base-100 shadow-sm">
+  <figure>
+    <div class="avatar">
+  <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+    <img src="./images/others/user-3.png" />
+  </div>
+</div>
+    
+  </figure>
+  <div class="card-body space-y-5">
+  <p>
+     Slate helps you see how 
+many more days you need 
+to work to reach your financial 
+goal for the month and year.</p>
+<div class="rating">
+  <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" checked="checked" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+</div>
+ <h5 class="text-center  font-semibold text-xiv text-sky-500">
+  Regina Miles</h5>
+ <h6 class="text-center text-black font-semibold text-xiv ">
+  Banker</h6>
+  </div>
+</div>
 
-       </section>
-
+    
+         </section>
+         
+        
+         <!---FAQ section-->
+         <section class="my=24">
+             <h3 class="text-5xl font-bold text-center mb-12">
+          Frequently Asked <span class="text-bike-primary">
+           Questions</span></h3>
+         </section>
      </main>
 
      <!---Footer section-->
